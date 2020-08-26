@@ -1,0 +1,9 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+
+mongodb:
+  central:
+    uri: "mongodb+srv://m001-student:testtest@testcluster.yhrmt.mongodb.net/myDatabase?retryWrites=true&w=majority"
+  local:
+    uri: "mongodb+srv://fares:test@cluster0.csscd.gcp.mongodb.net/LocalDB?retryWrites=true&w=majority"

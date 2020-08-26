@@ -1,0 +1,13 @@
+package com.osc.test2dbs;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Test2dbsApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Test2dbsApplication.class, args);
+    }
+
+}
